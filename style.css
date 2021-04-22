@@ -16,8 +16,8 @@ body {
 }
 
 .container {
-	margin: 10px;
-	padding: 10px;
+	margin: 1rem;
+	padding: 1rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -27,15 +27,15 @@ body {
 
 heading {
 	font-size: 1.6rem;
-	margin-bottom: 10px;
+	margin-bottom: 1rem;
 }
 
 .countdown {
-	margin: 10px;
-	padding: 10px;
+	margin: 1rem;
+	padding: 1rem;
 	background-color: #7692FF;
 	border: 2px solid #3D518C;
-	border-radius: 5px;
+	border-radius: 0.5rem;
 	z-index: 2;
 }
 
@@ -45,26 +45,26 @@ heading {
 }
 
 .word-box {
-	height: 200px;
-	width: 300px;
+	height: 20rem;
+	width: 30rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 5px solid #3D518C;
+	border: 0.5rem solid #3D518C;
 	background-color: #1B2111;
-	margin: 20px;
-	padding: 10px 5px;
+	margin: 2rem;
+	padding: 1rem 0.5rem;
 	color: #fff;
-	border-radius: 10px;
+	border-radius: 1rem;
 	font-family: 'Fredericka the Great', cursive;
 }
 
 .score {
-	margin: 10px;
-	padding: 10px;
+	margin: 1rem;
+	padding: 1rem;
 	background-color: #3D518C;
 	border: 2px solid #7692FF;
-	border-radius: 5px;
+	border-radius: 0.5rem;
 	color: #fff;
 }
 
@@ -78,16 +78,16 @@ heading {
 }
 
 .input-box {
-	margin: 10px;
+	margin: 1rem;
 }
 
 .input-box > input {
-	height: 80px;
-	width: 200px;
+	height: 8rem;
+	width: 20rem;
 	text-align: center;
 	background-color: #7692FF;
-	border: 5px solid #424242;
-	border-radius: 5px;
+	border: 0.5rem solid #424242;
+	border-radius: 0.5rem;
 	font-size: 1.2rem;
 	overflow: auto;
 	transition: all .3s ease-in;
@@ -97,7 +97,7 @@ heading {
 input:focus, input:hover {
 	color: #fff;
 	background-color: #424242;
-	border: 5px solid #7692FF;
+	border: 0.5rem solid #7692FF;
 }
 
 .start-btn {
@@ -105,11 +105,11 @@ input:focus, input:hover {
 }
 
 .start-btn > button {
-	border: 2px solid #3D518C;
+	border: 0.2rem solid #3D518C;
 	background-color: #7692FF;
-	padding: 5px 10px;
+	padding: 0.5rem 1rem;
 	outline: none;
-	border-radius: 10px;
+	border-radius: 1rem;
 	font-size: 1.2rem;
 	transition: all .3s ease;
 }
@@ -122,7 +122,7 @@ input:focus, input:hover {
 }
 
 button:hover {
-	border: 2px solid #7692FF;
+	border: 0.2rem solid #7692FF;
 	background-color: #3D518C;
 	color: #fff;
 	cursor: pointer;
@@ -130,9 +130,9 @@ button:hover {
 
 .modal {
 	display: none;
-	border: 3px solid #454545;
-	border-radius: 10px;
-	padding: 10px 5px;
+	border: 0.3rem solid #454545;
+	border-radius: 1rem;
+	padding: 1rem 0.5rem;
 	background-color: #ccc;
 	position: absolute;
 	top: 50;
@@ -149,23 +149,23 @@ button:hover {
 }
 
 .confirmation-button {
-	padding: 5px 10px;
-	margin-top: 20px;
+	padding: 0.5rem 1rem;
+	margin-top: 2rem;
 	background-color: #3D518C;
 	color: #fff;
 	font-size: 0.9rem;
-	border: 2px solid #7692FF;
-	border-radius: 5px;
+	border: 0.2rem solid #7692FF;
+	border-radius: 0.5rem;
 	cursor: pointer;
 	outline: none;
 }
 
 .instruction {
-  margin-top: 10px;
-  border-left: 5px solid rgba(225, 225, 225, 0.3);
+  margin-top: 1rem;
+  border-left: 0.5rem solid rgba(225, 225, 225, 0.3);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7));
-  padding: 10px 5px;
-  font-size: 1.0rem;
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
 }
 
 .instruction span {
