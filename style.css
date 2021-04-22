@@ -45,8 +45,8 @@ heading {
 }
 
 .word-box {
-	height: 20rem;
-	width: 5rem;
+	height: 15rem;
+	width: 10rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
