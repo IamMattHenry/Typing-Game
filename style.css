@@ -45,7 +45,7 @@ heading {
 }
 
 .word-box {
-	height: 15rem;
+	height: 1.25rem;
 	width: 20rem;
 	display: flex;
 	justify-content: center;
@@ -82,7 +82,7 @@ heading {
 }
 
 .input-box > input {
-	height: 8rem;
+	height: 5rem;
 	width: 20rem;
 	text-align: center;
 	background-color: #7692FF;
